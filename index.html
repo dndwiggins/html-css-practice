@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Practice</title>
+    <style>
+      .tweet {
+        width: 400px; /* Width of the box */
+        height: 150px; /* Height of the box */
+        border-radius: 20px;
+        padding: 20px; /* Space between the content and the border */
+        margin: 10px; /* Space around the box */
+        background-color: rgb(166, 165, 161); /* Background color of the box */
+      }
+      .profile {
+        width: 100px;
+        height: 100px;
+        border-radius: 70px;
+
+        float: left;
+        margin-right: 10px;
+      }
+      .username {
+        font-weight: bold;
+      }
+
+      .box {
+        width: 200px;
+        height: 75px;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+        background-color: rgb(166, 165, 161);
+        float: left;
+      }
+
+      .create {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <img class="profile" src="images/standard profile picture.jpeg" alt="" />
+      <p class="username">@dndwiggins</p>
+      <p class="description">
+        wow this version of twitter is terrible, what update is this?
+      </p>
+    </div>
+    <div class="tweet">
+      <img class="profile" src="images/standard profile picture.jpeg" alt="" />
+      <p class="username">@dndwiggins</p>
+      <p class="description">hello world</p>
+    </div>
+    <div class="tweetmaker">
+      <div class="box">
+        <p>Enter Username</p>
+        <p>Enter Description</p>
+        <button class="create">
+          <p>create</p>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
